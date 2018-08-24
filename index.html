@@ -1,28 +1,224 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-  </head>
-  <body>
-    <header>
-      <div class="header">
-        <article>DEVICE</article>
-        <form method="POST" action="https://echo.htmlacademy.ru">
-          <input type="search" name="site-search" placeholder="Поиск по сайту">
-        </form>
-        <div class="user-navigator">
-          <a class="user-enter">Войти</a>
-          <a class="user-сompare">Сравнить</a>
-          <a class="user-cage">Корзина</a>
-        </div>
-        <div class="site-navigator">
-          <a class="site-catalog">Каталог товаров</a>
-          <a class="site-delivery">Доставка</a>
-          <a class="site-guarantee">Гарантия</a>
-          <a class="site-contact">Контакты</a>
-        </div>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Девайс</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <header class="container">
+    <div class="header">
+      <a class="logo">DEVICE</a>
+      <div>
       </div>
-    </header>
-  </body>
+      <form class="search-form" method="POST" action="https://echo.htmlacademy.ru">
+        <input class="search-form-visible" type="search" name="site-search" placeholder="Поиск по сайту">
+        <input type="submit" name="submit" value="Найти">
+        <span class="w23"></span>
+        <div class="form-outline">
+          <svg id="dashstart" class="ss1" viewBox="0 0 441 49">
+            <path id="dashstart" d="m-40 48h439v-47h-82v47" fill="none" stroke="black" pathLength="100" stroke-width="2"></path>
+          </svg>
+        </div>
+      </form>
+
+      <div class="header-block">
+        <div class="user-block">
+          <a href="#" class="user-enter">Войти</a>
+          <line id="dashstart" x1="0" y1="0" x2="300" y2="0" />
+          <a href="#" class="user-сompare">Сравнить</a>
+          <a href="#" class="user-cage">Корзина</a>
+        </div>
+        <nav class="main-nav">
+          <ul class="main-catalog">
+            <li>
+              <a href="#" class="site-catalog main-links">Каталог товаров</a>
+              <ul class="catalog-visible">
+                <li>
+                  <a href="#">Виртуальная реальность</a>
+                </li>
+                <li>
+                  <a href="#">Фитнесс браслеты</a>
+                </li>
+                <li>
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+                <li>
+                  <a href="#">Моноподы для селфи</a>
+                </li>
+                <li>
+                  <a href="#">Умные часы</a>
+                </li>
+                <li>
+                  <a href="#">Экшн-камеры</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="site-delivery main-links">Доставка</a>
+            </li>
+            <li>
+              <a href="#" class="site-guarantee main-links">Гарантия</a>
+            </li>
+            <li>
+              <a href="#" class="site-contact main-links">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+
+
+
+    <div class="container">
+    <section class="slider-1">
+      <img class="image-slider-1" src="/img/slider-1.png">
+      <div class="main-description">
+      <h1>Делай селфи, как Бен Стиллер!</h1>
+      <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+      </p>
+      <a>Подробнее</a>
+      <table>
+        <tr>
+          <td>8,5 м</td>
+          <td>5 кг</td>
+          <td> Карбон</td>
+        </tr>
+        <tr>
+          <td>Длина палки</td>
+          <td>Вес палки</td>
+          <td>Материал</td>
+        </tr>
+      </table>
+      </div>
+    </div>
+  </section>
+
+    <button type="radio" class="radio-1"></button>
+      <button type="radio" class="radio-2"></button>
+      <button type="radio" class="radio-3"></button>
+
+    <section class="popular">
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Виртуальная реальность
+      </a>
+      </div>
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Моноподы для селфи
+      </a>
+      </div>
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Экшн-камеры
+      </a>
+      </div>
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Фитнесс браслеты
+      </a>
+      </div>
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Умные часы
+      </a>
+      </div>
+      <a href="#">
+        <div>
+          <img>
+        </div>
+        Квадрокоптеры
+      </a>
+    </section>
+    <section>
+      <div>
+        <button type="button"></button>
+        <h2>Доставка</h2>
+        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,
+          поднимая его на ваш этаж.</p>
+        <img>
+      </div>
+      <div>
+        <button type="button"></button>
+        <h2>Гарантия</h2>
+        <p>Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар,
+          не дом, конечно же.</p>
+        <img>
+      </div>
+      <div>
+        <button type="button"></button>
+        <h2>Кредит</h2>
+        <p>Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита.
+          Выгодные для нашего банка, разумеется.</p>
+        <img>
+      </div>
+    </section>
+    <section class="sponsors">
+      <img>
+      <img>
+      <img>
+      <img>
+    </section>
+    <section>
+      <div>
+        <h3>О нас</h3>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+        <a>Деловые Линии</a>
+        <a>Автотрейдинг</a>
+        <a>ЖелДарЭкспедиция</a>
+        <button type="button">Подробнее о нас</button>
+      </div>
+      <div>
+        <h3>Контакты</h3>
+        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое
+          бывает.
+        </p>
+        <button type="button" class="map">Карта</button>
+        <button type="button">Напишите нам</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <a href="#" class="footer-logo">Device</a>
+      <p>г Москва, уд Строителей, 15</p>
+    </div>
+    <div>
+      <div>
+        <a>Доставка</a>
+        <a>Гарантия</a>
+        <a>Контакты</a>
+      </div>
+      <div>
+        <a href="#" class="facebook"></a>
+        <a href="#" class="instagramm"></a>
+        <a href="#" class="twitter"></a>
+      </div>
+    </div>
+    <div>
+      <a href="#">Войти</a>
+      <a href="#">Сравнить</a>
+      <a href="#">Корзина</a>
+      <p>Тел.: +7 (495) 495-95-95</p>
+      <a href="#">HtmlAcademyLogo</a>
+    </div>
+  </footer>
+</body>
+
 </html>

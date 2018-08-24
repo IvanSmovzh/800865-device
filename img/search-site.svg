@@ -1,0 +1,19 @@
+
+<svg class="search-anim" viewBox="0 0 440 49">
+<g>
+	<rect x="0.5" y="47.5" class="st0" width="439" height="1"/>
+	<polygon points="440,47 0,47 0,49 440,49 440,47 	"/>
+</g>
+<g>
+	<rect x="438.5" y="2.5" class="st0" width="1" height="44"/>
+	<path d="M439,3v43V3 M440,2h-2v45h2V2L440,2z"/>
+</g>
+<g>
+	<rect x="355.5" y="0.5" class="st0" width="84" height="1"/>
+	<polygon points="440,0 355,0 355,2 440,2 440,0 	"/>
+</g>
+<g>
+	<rect x="355.5" y="2.5" class="st0" width="1" height="44"/>
+	<path d="M356,3v43V3 M357,2h-2v45h2V2L357,2z"/>
+</g>
+</svg>
